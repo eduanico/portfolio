@@ -76,7 +76,7 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h2>👨🏻Welcome to my Portfolio!</h2>
+      <h2 >👨🏻Welcome to my Portfolio!</h2>
       <section>
         <ul>
           {
@@ -100,9 +100,11 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
         <hr />
         <div>
           <br />
-          <h4 style="color:green">Companies That Trusted My Work</h4>
+          <h4 style="display: flex;
+          align-items: center;
+          justify-content: center;">Companies That Trusted My Work</h4>
           <br />
-          <marquee style="margin-left:10px" behavior="scroll" direction="left" scrollamount="10 " vspace="5%" >
+          <marquee style="margin-left:10px" behavior="scroll" direction="left" scrollamount="10 " vspace="5%">
             <img style="margin-left: auto;
             margin-right: auto;" src="claro-logo.png" width="250" height="250" alt="Claro logo" />
             <img
@@ -113,8 +115,14 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
               height="230"
               alt="Banco Boliviariano logo"
             />
-            <img style="margin-left: 10px;
-            margin-right: 10px; margin-bottom:20px" src="alfanet-logo.png" width="330" height="330" alt="Alfanet logo" />
+            <img
+              style="margin-left: 10px;
+            margin-right: 10px; margin-bottom:20px"
+              src="alfanet-logo.png"
+              width="330"
+              height="330"
+              alt="Alfanet logo"
+            />
             <img
               style="margin-left: 10px;
             margin-right: 10px; margin-bottom:20px"
@@ -123,8 +131,14 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
               height="220"
               alt="Eclipsoft logo"
             />
-            <img style="margin-left: 50px;
-            margin-right: 30px; margin-bottom:20px" src="directv-logo.png" width="250" height="250" alt="DirecTv logo" /> 
+            <img
+              style="margin-left: 50px;
+            margin-right: 30px; margin-bottom:20px"
+              src="directv-logo.png"
+              width="250"
+              height="250"
+              alt="DirecTv logo"
+            />
           </marquee>
         </div>
       </section>
