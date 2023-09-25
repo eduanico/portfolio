@@ -2,13 +2,36 @@
 import Layout from '../layouts/BlogPost.astro';
 ---
 
-<Layout
-	title="About Me"
-	description="Back End Developer"
-	pubDate={new Date('September 22 2023')}
-	heroImage="/eduanico.jpeg"
->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nostrum, nisi vero, quasi quia dolore incidunt fugit ipsa perspiciatis aliquid beatae repudiandae voluptas excepturi possimus fuga nobis earum laudantium illum.</p>
+<Layout title="👨‍💻About Me" description="Back End Developer" pubDate={new Date('September 22 2023')} heroImage="/eduanico.jpeg">
+  <div id="header" align="center">
+    <div id="badges">
+      <a href="https://www.linkedin.com/in/eduardo-nicolalde/">
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+      </a>
+      <a href="https://wa.me/593983426922?text=Hi%20Eduardo!%20Nice%20to%20meet%20you.">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp Badge" />
+      </a>
+    </div>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel quo </p>
+    <img src="https://komarev.com/ghpvc/?username=eduanico&style=flat-square&color=blue" alt="" />
+  </div>
+  <p><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong></p>
+  <p>
+    I'm a <strong>Telematics Engineer</strong> graduated in <a target="_blank" href="https://www.espol.edu.ec/en">ESPOL</a> and <strong
+      >Software developer</strong
+    > from Ecuador 🇪🇨
+  </p>
+  <ul>
+    <li>💼 I currently hold the position of Back-End Engineer at <a target="_blank" href="https://eclipsoft.com">Eclipsoft S.A.</a></li>
+    <li>📚 I’m learning astro, react and for aws solutions architect cert</li>
+    <li>☕ I’m looking to collaborate on springboot projects for APIs and microservices development</li>
+    <li>💬 Ask me about anything</li>
+    <li>📫 How to reach me: aaronnicolalde1@gmail.com</li>
+  </ul>
+  <p align="center" style="font-size:20px; font-weight: bold">
+    Languages and Tools :
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,java,spring,mongo,mysql,python,react,astro" />
+    </a>
+  </p>
 </Layout>

@@ -1,8 +1,8 @@
 ---
-title: 'Check Id'
+title: 'Pdf Builder'
 description: 'Fetch citizen information from Civil Registry API'
-pubDate: 'Jul 01 2022'
-heroImage: '/check-id.png'
+pubDate: 'Mar 13 2023'
+heroImage: '/pdfbuilder.png'
 ---
 
 
