@@ -16,3 +16,4 @@ The signed files are send to a **webhook** url and logs as well on a urlback.
 - Restrictions based on roles
 - JWT Security Authentication 
 - Query and download reports using filters
+
