@@ -2,7 +2,7 @@
 title: 'ID4Face'
 description: 'Id4face Api for Eclipsoft S.A.'
 pubDate: 'Oct 19 2022'
-heroImage: '/id4face.png'
+heroImage: '/id4face.webp'
 ---
 
 
