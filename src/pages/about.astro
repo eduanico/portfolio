@@ -8,15 +8,15 @@ import Layout from '../layouts/BlogPost.astro';
       <a target="_blank" href="https://www.linkedin.com/in/eduardo-nicolalde/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
       </a>
-      <a style ="margin-left: 10px" target="_blank" href="https://wa.me/593983426922?text=Hi%20Eduardo!%20Nice%20to%20meet%20you.">
+      <a style="margin-left: 10px" target="_blank" href="https://wa.me/593983426922?text=Hi%20Eduardo!%20Nice%20to%20meet%20you.">
         <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp Badge" />
       </a>
     </div>
 
     <img src="https://komarev.com/ghpvc/?username=eduanico&style=flat-square&color=blue" alt="" />
   </div>
-  <p><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong></p>
-  <p>
+  <p class="title"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong></p>
+  <p class="description">
     I'm a <strong>Telematics Engineer</strong> graduated in <a target="_blank" href="https://www.espol.edu.ec/en">ESPOL</a> and <strong
       >Software developer</strong
     > from Ecuador 🇪🇨
@@ -35,3 +35,31 @@ import Layout from '../layouts/BlogPost.astro';
     </a>
   </p>
 </Layout>
+
+<style>
+  .title {
+    animation: typing .7s .6s steps(6);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 25ch;
+    color: var(--text-color) !important;
+  }
+/* 
+  .description {
+    animation: typing .7s .6s steps(6);
+    overflow: hidden;
+    width: 70ch;
+  } */
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+</style>
