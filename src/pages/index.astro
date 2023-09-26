@@ -76,7 +76,7 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h2 >👨🏻Welcome to my Portfolio!</h2>
+      <h2>👨🏻Welcome to my Portfolio!</h2>
       <section>
         <ul>
           {
@@ -89,6 +89,8 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
                     <FormattedDate date={post.data.pubDate} />
                   </p>
                 </a>
+                <br />
+                <hr />
               </li>
             ))
           }
@@ -96,9 +98,8 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
         <!-- <br />
         <br />
         <br />
-        <br />
-        <hr />
-        <div>
+        <hr /> -->
+        <!-- <div>
           <br />
           <h4 style="display: flex;
           align-items: center;
