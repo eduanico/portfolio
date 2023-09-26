@@ -24,3 +24,19 @@ It auto generates a extra-document when validation is done, showing reference an
 In addition, it can read and get information from de identification card and returned it as a json response.
 
 Build reports and download them using filters as well to get all events from a client in an specific date.
+
+It uses a 
+#### Features
+- Upload reference image
+- Validate photo with Check-Id
+- Validate photo without Check-Id
+- Validate front id card
+- Validate rear id card
+- Validate selfie photo
+- Get text from id card
+- Retrieve validation extra document
+- Voice recognition
+- Video validation
+- Query and download report by filters
+- Restrictions based on roles
+- JWT Security Authentication 
