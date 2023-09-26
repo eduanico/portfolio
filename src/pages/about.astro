@@ -12,9 +12,9 @@ import Layout from '../layouts/BlogPost.astro';
         <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp Badge" />
       </a>
     </div>
-
     <img src="https://komarev.com/ghpvc/?username=eduanico&style=flat-square&color=blue" alt="" />
   </div>
+
   <p class="title"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong></p>
   <p class="description">
     I'm a <strong>Telematics Engineer</strong> graduated in <a target="_blank" href="https://www.espol.edu.ec/en">ESPOL</a> and <strong
@@ -38,8 +38,10 @@ import Layout from '../layouts/BlogPost.astro';
 
 <style>
   .title {
-    animation: typing .7s .6s steps(6), blink .5s step-end infinite;
+    animation: typing .7s steps(6), blink .5s step-end infinite;
     white-space: nowrap;
+    border-right: 2px solid;
+    line-height: 20px;
     overflow: hidden;
     width: 25ch;
     color: var(--text-color) !important;
