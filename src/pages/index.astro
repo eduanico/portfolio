@@ -14,7 +14,8 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
       main {
-        width: 960px;
+        align-items: center;
+        text-align: center;
       }
       ul {
         display: flex;
@@ -25,6 +26,7 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
         padding: 0;
       }
       ul li {
+        text-align: center;
         width: calc(50% - 1rem);
       }
       ul li * {
@@ -32,6 +34,7 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
         transition: 0.2s ease;
       }
       ul li img {
+        margin: 0 auto;
         margin-bottom: 0.5rem;
         border-radius: 12px;
       }
@@ -83,7 +86,7 @@ const posts = (await getCollection('service')).sort((a, b) => a.data.pubDate.val
             posts.map(post => (
               <li>
                 <a href={`/service/${post.slug}/`}>
-                  <img width={300} height={360} src={post.data.heroImage} alt="" />
+                  <img width={300}  src={post.data.heroImage} alt="" />
                   <h4 class="title">{post.data.title}</h4>
                   <p class="date">
                     <FormattedDate date={post.data.pubDate} />
