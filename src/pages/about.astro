@@ -2,7 +2,13 @@
 import Layout from '../layouts/BlogPost.astro';
 ---
 
-<Layout title="About Me" description="Back End Developer" pubDate={new Date('September 22 2023')} heroImage="/eduanico.jpeg">
+<Layout
+  title="About Me"
+  description="Back End Developer"
+  pubDate={new Date('September 22 2023')}
+  updatedDate={new Date('September 26 2023')}
+  heroImage="/eduanico.jpeg"
+>
   <div id="header" align="center">
     <div id="badges">
       <a target="_blank" href="https://www.linkedin.com/in/eduardo-nicolalde/">
@@ -15,7 +21,9 @@ import Layout from '../layouts/BlogPost.astro';
     <img src="https://komarev.com/ghpvc/?username=eduanico&style=flat-square&color=blue" alt="" />
   </div>
 
-  <p class="title"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong></p>
+  <p class="title">
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" /> My name is <strong>Eduardo Nicolalde</strong>
+  </p>
   <p class="description">
     I'm a <strong>Telematics Engineer</strong> graduated in <a target="_blank" href="https://www.espol.edu.ec/en">ESPOL</a> and <strong
       >Software developer</strong
@@ -38,7 +46,9 @@ import Layout from '../layouts/BlogPost.astro';
 
 <style>
   .title {
-    animation: typing .7s steps(6), blink .5s step-end infinite;
+    animation:
+      typing 0.7s steps(6),
+      blink 0.5s step-end infinite;
     white-space: nowrap;
     border-right: 2px solid;
     line-height: 20px;
@@ -46,7 +56,6 @@ import Layout from '../layouts/BlogPost.astro';
     width: 25ch;
     color: var(--text-color) !important;
   }
-
 
   @keyframes typing {
     from {
