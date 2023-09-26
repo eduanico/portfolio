@@ -13,9 +13,9 @@ It can support **high load** requests as we leverage the capabilities of **conta
 #### Features
 - Sign files up to 10 per request
 - Send signed files by email to final user and copy the client
-- Query and download reports using filters
 - Download signed files in a zip
 - Query webhook if async is true
+- Query and download reports using filters
 - Configure mail and signature configuration
 - Restrictions based on roles
 - JWT Security Authentication 
