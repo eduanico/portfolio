@@ -25,7 +25,6 @@ In addition, it can read and get information from de identification card and ret
 
 Build reports and download them using filters as well to get all events from a client in an specific date.
 
-It uses a 
 #### Features
 - Upload reference image
 - Validate photo with Check-Id
